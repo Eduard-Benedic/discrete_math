@@ -2,29 +2,38 @@
 # Propositional Logic
 
 ## Propositions
-Propositions - building block of logic
-A proposition is a declarative sentence (that declares a fact) that is either true or false but not both.
+Propositions - building block of logic, a declarative sentence
 
-**Compound propositions** - are propositions formed from existing propositions using logical operators
-Truth value - is the value of a proposition and it can be either True (T) or False(F)
-Don't be misled by the fact that truth resemble true. The truth value is what that value actually is.
+Proposition - is either True or False
+
+Proposition variables
+eg. x + 1 = 3;
+x - propositional variable | statement variable
+
+The **Truth Value** of a proposition is true, T it the proposition is true
+else false denoted F
+**Propositional calculus || logic** - area of logic that deals with props.
 
 
-Connective - a term given to these operators
-**conjunction** - p ∧ q - it is the equivalend of the and operator where p, q are propositions
-The 
-**disjunction** - p ∨ q -  eq to *or* operator
-Disjunction can be exclusive (p ⊕ q) or inclusive
-p ⊕ q - means that if both are True or False you will get a False
 
-Exclusive disjunction - It is True only when one of our propositions p, q is True and the other False but not when both are True.
+## Compound propositions - propositions formed from existing propositions using logical operators
+*Definition* - **let p be a proposition, the negation of p is denoted ¬p**
 
-## Conditional Statements
 
-p -> q implies if *p* then *q*
-p  - hypothesis (antecedent or premise)
-q  - conclusion (or consequence)
-A conditional statement it is also called a **implication**
+## Connectives - operators that form new proposition from existing ones
+### Conjunction p ∧ q** 
+*Def* - it is the equivalent of the && operator. The conjuction is true when both truth values of the p, q propositions are true.
+
+### Disjunction - p ∨ q -  eq to *or* operator
+*Def* - the disjunction p ∨ q is false when both values are false and true otherwise.
+Disjunction can be of 2 types:
+1. Inclusive
+2. Exclusive - p ⊕ q - if both values have the same truth value the result is false.
+
+
+## Conditional Statements (Implication) (another way in which propositions can be combined)
+*Def* - The conditional statement p → q is the prop "if p, then q".
+In p → q, **p - hypothesis** and **q - conclusion or consequence**.
 
 ## Converse, Contrapositive and Inverse
 q -> p (**converse** of p->q)
@@ -44,12 +53,13 @@ T - F = F
 F - T = F
 
 
-So far we have 4 important logical connectives:
+So far I have 4 important logical connectives:
 1. Conjunctions
-2. Disjunctions
+2. Disjunctions - explicit and implicit
 3. Conditional statements
 4. Biconditional statements
  as well as negations
+and Negations
 
 ## Precedence of Logical Operators
 TABLE 8 
@@ -62,6 +72,12 @@ Precedence of Logical Operators.
     ↔            5
 
 
+## Application of Propositional Logic
+
+### Logical Circuits (digital circuits)
+
+
+
 
 ## Propositional Equivalences
 
@@ -69,3 +85,28 @@ Precedence of Logical Operators.
 Methods that produce propositions with the same truth value
 
 **Tautology** - A compound proposition that is always true no matter what the truth values of the propositional variables that occur in it
+tauto - same
+logos - logic
+p ∨ ¬p - example of tautology. No matter what the truth values are it is also true.
+
+## Contradiction  - compound proposition that is always false
+p ∧ ¬p - always false => it is a contradiction
+
+## Contingency - a proposition that is neither Tautology or Contradiction
+
+### Logical Equivalences
+Compound propositionts that have the same truth values in all possible cases are called **logically equivalent**.
+The compound propositions p and q are called logically equivalent if p ↔ q is a tautology.
+The notation p ≡ q denotes that p and q are logically equivalent.
+
+**De Morgan Laws**
+
+CHECK PAGE 27 for the full table
+
+
+## Predicates and Quantifiers.
+The number is greater than 10
+The number - subject
+is greater than 10 - predicate
+The predicate refers to a property that the subject can have.
+
