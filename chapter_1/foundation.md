@@ -105,8 +105,28 @@ CHECK PAGE 27 for the full table
 
 
 ## Predicates and Quantifiers.
-The number is greater than 10
+
+### Predicates
+
+"The number is greater than 10"
 The number - subject
 is greater than 10 - predicate
-The predicate refers to a property that the subject can have.
+The predicate refers to a property that the subject can possess.
+
+P(x) - propositional function P at x.
+Once x is assigned P(x) becomes a statement.
+
+### Quantifiers
+When the variables in a propositional function are assigned values the resulting statement becomes a proposition with a certain value. However, there is another way to accomplish this called **quantification**
+
+Quantification
+1. Universal - ∀xP(x) (∀ - universal quantifier)
+
+2. Existential - ∃xP (x)(∃ - existential quantifier)
+
+### Binding Variables
+When a quantifier is used on the variable x it means that this occurence of the variable is bound.
+An occurence of a variable that is not bound by a quantifier or set equal to a paricular value is said to be **free**.
+
+All the variables that occur in a **propositional function** must be bound or set equal to a particular value to turn it into a **proposition**.
 
