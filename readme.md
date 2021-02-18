@@ -1,1 +1,1 @@
-Discrete Mathematics and Its applications
+Discrete Mathematics and Its applications.
