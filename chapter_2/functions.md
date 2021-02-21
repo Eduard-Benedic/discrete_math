@@ -42,4 +42,4 @@ A function f from A to B is called onto or **Surjection** if and only if for eve
 
 
 If a function is a one-to-one coreespondence (bijection) when can define an inverse function.
-If a function is bijection then the function is **invertible**
+If a function is bijection then the function is **invertible**git
