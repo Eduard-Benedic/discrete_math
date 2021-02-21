@@ -130,3 +130,44 @@ An occurence of a variable that is not bound by a quantifier or set equal to a p
 
 All the variables that occur in a **propositional function** must be bound or set equal to a particular value to turn it into a **proposition**.
 
+
+## Rules of Inference 
+*Def* - Proofs are **valid** **arguments** that establish the truth of mathematical statements
+
+argument - sequence of statements that end with a conclusion
+valid - the conclusion or final statement of the argument must follow from the truth of the preceeding statements or **premises** of the argument
+
+An argument is valid if and only if it is impossible for all the statements to be true and the conclusion to be false.
+
+∴ - therefore
+
+
+To analyze an argument I replace propositions by propositional variables. This changed an argument to an **argument form**.
+
+*Def*
+*argument* - sequence of propositions
+*final proposition* - conclusion
+*the other propositions* - premises
+An argument is valid if the truth of all its premises implies that the conclusion is true
+*argument form* - a sequence of compond propositions involving propositional variables.
+
+
+### Rules of Inference
+Table - Rules of Inference
+Page 72 !!!!
+
+
+### Rules of Inference for Quantified Statements
+
+
+## Introduction to Proofs
+*Def* - A proof is a valid argument that establishes the truth statement of a mathematical statement.
+
+Theorem(facts or results) - a statement that can be shown to be true
+Less important theorems are called **propositions**
+Axioms (postulates) - statements we assume to be true
+
+A less important theorem that is helpful in the proof of other results is called a **lemma**
+
+**Corollary** - theorem that can be established directly from a theorem that has been proved
+**Conjecture** - statement that is being proposed to be a true statement, usually on the basis of some partial evidence, a heuristic argument, or the intuition of an expert
