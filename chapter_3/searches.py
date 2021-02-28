@@ -1,17 +1,26 @@
 
+def max(arr):
+    maxEl = arr[0]
+    for el in arr:
+        if el > maxEl:
+            maxEl = el
+    return maxEl
 
-# num_sequence = [1,4,5,6,12,20,200]
+print(max([1,2,3, 200, 10, 300]))
 
-# def linear_search(arr, num):
-#     arr_length = len(arr)
-#     location = 0
-#     for x in range(len(arr)):
-#         if arr[x] == num:
-#             location = x
-#     return location
+
+num_sequence = [1,4,5,6,12,20,200]
+
+def linear_search(arr, num):
+    arr_length = len(arr)
+    location = 0
+    for x in range(len(arr)):
+        if arr[x] == num:
+            location = x
+    return location
         
 
-# loc_num = linear_search(num_sequence, 20)
+loc_num = linear_search(num_sequence, 20)
 
 
 binary_arr_search = [1, 2, 3, 5, 6, 7, 8, 10, 12, 13, 20, 22]

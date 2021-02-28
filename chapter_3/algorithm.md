@@ -19,3 +19,8 @@ The linear seach as the name suggests perform a search from one term to another 
 
 ### The Binary Search
 The binary search is used when the list has terms occurring in order of increasing size.
+
+
+## Sorting
+
+1. Bubble Sort
