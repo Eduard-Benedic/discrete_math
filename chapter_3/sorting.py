@@ -31,7 +31,7 @@ def insertion_sort(items):
 
                 
 
-arr_insertion = [111,2, 3, 12, 16, 4, 1, 5, 3333, 123442,21]
+arr_insertion = [3, 2, 4, 1, 5]
 # arr_insertion.insert(1, 30)
 # print(arr_insertion)
 
