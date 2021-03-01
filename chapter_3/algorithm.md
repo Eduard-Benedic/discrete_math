@@ -24,3 +24,6 @@ The binary search is used when the list has terms occurring in order of increasi
 ## Sorting
 
 1. Bubble Sort
+In a bubble sort your perform for each item a comparison with the adjacent item. If the adjacent item is greater switch places else continue with the next element.
+
+2. Insertion Sort

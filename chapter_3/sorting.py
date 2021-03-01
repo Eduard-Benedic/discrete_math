@@ -20,5 +20,21 @@ sorted_items = bubble_sort(items)
 end = time()
 
 
-print(sorted_items)
+def insertion_sort(items):
+    for i in range(1, len(items)):
+        for k in range(0, i+1):
+            if items[i] < items[k] and not i == len(items):
+                el = items[i]
+                items.pop(i)
+                items.insert(k, el)
+    return items
 
+                
+
+arr_insertion = [111,2, 3, 12, 16, 4, 1, 5, 3333, 123442,21]
+# arr_insertion.insert(1, 30)
+# print(arr_insertion)
+
+sorted_insert = insertion_sort(arr_insertion)
+
+print(sorted_insert)
