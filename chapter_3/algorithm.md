@@ -27,3 +27,20 @@ The binary search is used when the list has terms occurring in order of increasi
 In a bubble sort your perform for each item a comparison with the adjacent item. If the adjacent item is greater switch places else continue with the next element.
 
 2. Insertion Sort
+
+## Greedy Algorithms
+Greedy algorithm is an algorithm that seems to make the best choice at each step. 
+An algorithm is "greedy" whether or not finds an optimal solution.
+
+## The Halting Problem
+
+
+## The Growth of Functions
+
+### Big-O Notation
+Let f and g be functions from the set of integers or the set of real numbers to the set of real numbers. We say that f (x) is O(g(x)) if there are constants C and k such that:
+
+    |f (x)| ≤ C * |g(x)| 
+    whenever x>k. [This is read as “f (x) is big-oh of g(x).”]
+
+C,k - witnesses
